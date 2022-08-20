@@ -1,0 +1,151 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+header {
+  background: #ffffff;
+  height: 76px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 5px solid #abfc35;
+}::-webkit-scrollbar{
+  width: 6px;  
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#262626, #9be729);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+  background-color: #262626;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  font-family:Raleway;
+  margin-top:-5px;
+  font-size: 18px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #abfc35;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#logo {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 60px;
+  background: url(../img/img-local/logo-new.png) no-repeat;
+  display: block;
+  margin-top:13px;
+}
+
+nav {
+  float: right;
+  padding: 20px;   
+  margin-right: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*konten1*/
+.page-wrap {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  height: 100vh; 
+  display: flex;
+}
+
+.btn{
+  background:#8cd91a;
+  width:200px;
+  height: 45px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:10px;
+  color: #fff;
+
+  margin-top:10px;
+  margin-bottom:20px;
+  float: left;
+  font-weight:600;
+  font-size:16px;
+}
+
+.btn:hover{
+  background:#9be729; 
+  color: #fff;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.box-1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: 90px;
+}
+
+.box-2 {
+  width: 50%;
+  padding: 10px 10px 10px 10px 0;
+  float: left;
+  margin-top: 60px;
+}
+
+.box-1 h3 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 15%;
+  color: #000; 
+  margin-top: 15%;
+}
+
+.box-1 h1 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-left: 15%;
+  color: #000;
+}
+
+.box-1 p{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #A09A9A;
+  margin-left: 15%;
+  font-size: 20px;  
+}
+
+.box-2 img {
+  width: 600px;
+  padding: 50px;
+  margin: 100px;
+}
+
+.left{
+    position: relative;
+    margin-left: 15%;
+}
+
