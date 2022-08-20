@@ -53,7 +53,7 @@
         },
         series: [{
             name: 'Nasabah Kelurahan Bener',
-            data: [<?php $query = mysqli_query($conn, "SELECT COUNT(id_setor) AS tes FROM setor GROUP BY id_setor");
+            data: [<?php $query = mysqli_query($conn, "SELECT COUNT(nin) AS tes FROM nasabah GROUP BY rt");
                     while ($row = mysqli_fetch_array($query)) {
                         echo ($row['tes']) . ",";
                     } ?>]

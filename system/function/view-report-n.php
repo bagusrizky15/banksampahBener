@@ -11,7 +11,7 @@
         type: 'area'
     },
     title: {
-        text: 'Data Jumlah Nasabah Tiap RT'
+        text: 'Data Jumlah Transaksi'
     },
     subtitle: {
         text: 'Source: Kelurahan Bener Kecamatan Tegalrejo'

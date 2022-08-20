@@ -57,10 +57,6 @@
             <td><?php echo "Rp. ".number_format($row['jumlah_tarik'], 2, ",", ".")  ?></td>
             <!-- <td><?php echo $row['nia'] ?></td> -->
             <td>
-                
-                <a href="a">
-                <button><i class="fa fa-pencil"></i>edit</button> 
-                </a>
 
                 <a onclick="return confirm('Anda yakin ingin menghapus data ini?')" href="../system/function/delete-tarik.php?id=<?php echo $row['id_tarik']; ?>">
                 <button><i class="fa fa-trash-o"></i>hapus</button>
